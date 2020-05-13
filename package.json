@@ -1,6 +1,6 @@
 {
   "name": "@adonisjs/redis",
-  "version": "2.0.8",
+  "version": "2.0.9",
   "description": "AdonisJs official redis provider to make working with redis fun and simple.",
   "files": [
     "examples",
