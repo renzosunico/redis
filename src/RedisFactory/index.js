@@ -82,7 +82,7 @@ class RedisFactory {
   _newConnection () {
     if (this._useCluster) {
       debug('creating new redis cluster using config: %j', this._config)
-      return new IoRedis.Cluster(this._config.clusters, this.config.options)
+      return new IoRedis.Cluster(this._config.clusters, this._config.options)
     }
     debug('creating new redis connection using config: %j', this._config)
     return new IoRedis(this._config)
