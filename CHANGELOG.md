@@ -1,3 +1,10 @@
+<a name="2.1.0"></a>
+## [2.0.9](https://github.com/renzosunico/redis/compare/v2.0.8...v2.1.0) (2020-05-15)
+### Bug Fixes
+
+* **redisfactory:** replace redisOptions with options to include cluster config ([ee2356b](https://github.com/renzosunico/redis/commit/ee2356b99685b3143f40fe1804824cf9049ac6a7))
+
+
 <a name="2.0.8"></a>
 ## [2.0.8](https://github.com/adonisjs/adonis-redis/compare/v2.0.7...v2.0.8) (2018-07-17)
 
@@ -97,4 +104,3 @@
 * implement io-redis and add support for expressive pub/sub([3803407](https://github.com/adonisjs/adonis-redis/commit/3803407))
 * **providers:** add redis, redis-factory providers([3323dd3](https://github.com/adonisjs/adonis-redis/commit/3323dd3))
 * **redis:pubsub:** add support for ioc bindings([3198ce6](https://github.com/adonisjs/adonis-redis/commit/3198ce6))
-
