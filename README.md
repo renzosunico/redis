@@ -1,9 +1,10 @@
 # AdonisJs Redis 🚀
+
+> Forked from @adonisjs/redis
 > Provider to run redis commands from your Adonis app
 
-[![NPM Version][npm-image]][npm-url]
+<!-- [![NPM Version][npm-image]][npm-url] -->
 [![Build Status][travis-image]][travis-url]
-[![Appveyor][appveyor-image]][appveyor-url]
 [![Coveralls][coveralls-image]][coveralls-url]
 
 Adonis redis is a wrapper on top of [IoRedis](https://github.com/luin/ioredis) to run redis commands from your Adonisjs app.
@@ -70,16 +71,11 @@ test.failing('2 + 2 is always 4, but add method returns 6', (assert) => {
 
 Now since the `add` method has a bug, it will return `6` instead of `4`. But the build will pass.
 
-[appveyor-image]: https://img.shields.io/appveyor/ci/thetutlage/adonis-redis/master.svg?style=flat-square
+<!-- [npm-image]: https://img.shields.io/npm/v/@adonisjs/redis.svg?style=flat-square
+[npm-url]: https://npmjs.org/package/@adonisjs/redis -->
 
-[appveyor-url]: https://ci.appveyor.com/project/thetutlage/adonis-redis
+[travis-image]: https://travis-ci.org/renzosunico/redis.svg?branch=v2.1.0
+[travis-url]: https://travis-ci.org/renzosunico/redis
 
-[npm-image]: https://img.shields.io/npm/v/@adonisjs/redis.svg?style=flat-square
-[npm-url]: https://npmjs.org/package/@adonisjs/redis
-
-[travis-image]: https://img.shields.io/travis/adonisjs/adonis-redis/master.svg?style=flat-square
-[travis-url]: https://travis-ci.org/adonisjs/adonis-redis
-
-[coveralls-image]: https://img.shields.io/coveralls/adonisjs/adonis-redis/develop.svg?style=flat-square
-
-[coveralls-url]: https://coveralls.io/github/adonisjs/adonis-redis
+[coveralls-image]: https://coveralls.io/repos/github/renzosunico/redis/badge.svg
+[coveralls-url]: https://coveralls.io/github/renzosunico/redis
