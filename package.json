@@ -1,7 +1,7 @@
 {
-  "name": "@adonisjs/redis",
-  "version": "2.0.9",
-  "description": "AdonisJs official redis provider to make working with redis fun and simple.",
+  "name": "@renzosunico/adonis-redis",
+  "version": "2.1.0",
+  "description": "Unofficial and forked AdonisJs redis provider to make working with redis fun and simple.",
   "files": [
     "examples",
     "providers",
@@ -47,7 +47,7 @@
       "make"
     ]
   },
-  "author": "virk",
+  "author": "renzosunico",
   "license": "MIT",
   "config": {
     "commitizen": {
@@ -65,7 +65,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/adonisjs/adonis-redis.git"
+    "url": "git+https://github.com/renzosunico/redis.git"
   },
   "keywords": [
     "redis",
@@ -75,7 +75,7 @@
     "ioredis"
   ],
   "bugs": {
-    "url": "https://github.com/adonisjs/adonis-redis/issues"
+    "url": "https://github.com/renzosunico/redis/issues"
   },
-  "homepage": "https://github.com/adonisjs/adonis-redis#readme"
+  "homepage": "https://github.com/renzosunico/redis#readme"
 }
